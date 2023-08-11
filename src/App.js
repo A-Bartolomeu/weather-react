@@ -9,7 +9,11 @@ export default function App() {
 
         <footer>
           This project was coded by{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://abartolomeu-portfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             ABartolomeu
           </a>{" "}
           and is{" "}
