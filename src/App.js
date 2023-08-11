@@ -1,14 +1,27 @@
+import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>AUG</p>
-        <h1>19</h1>
-      </header>
+      <div className="container">
+        <Weather defaultCity="New York" />
+
+        <footer>
+          This project was coded by{" "}
+          <a href="" target="_blank" rel="noopener noreferrer">
+            ABartolomeu
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/ABartolomeu-coder/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
