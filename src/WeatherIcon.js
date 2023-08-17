@@ -22,5 +22,5 @@ export default function WeatherIcon(props) {
     "50n": "./img/clear-night.svg",
   };
 
-  return <img src={codeMapping[props.code]} />;
+  return <img src={codeMapping[props.code]} alt="image" />;
 }
