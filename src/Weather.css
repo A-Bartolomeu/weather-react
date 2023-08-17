@@ -5,3 +5,39 @@
   padding: 5vh;
   margin-bottom: 5vh;
 }
+
+.Weather .form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: groove;
+  color: #757575;
+}
+.Weather .form-control:hover {
+  color: #757575;
+}
+.Weather .form-control:focus {
+  border-color: #8b23e1;
+}
+.Weather .form-control:focus-visible {
+  border-color: #8b23e1;
+  color: #757575;
+}
+
+.Weather .item {
+  color: #757575;
+}
+
+.Weather .item:hover {
+  color: #8b23e1;
+}
+
+.Weather ul {
+  list-style: none;
+}
+
+.Weather .container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}

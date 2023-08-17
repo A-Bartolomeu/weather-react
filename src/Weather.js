@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+import { BiSearch } from "react-icons/bi";
 import axios from "axios";
 import "./Weather.css";
 
@@ -31,7 +32,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+    const apiKey = "ba622936a49e696805b510e96dc28632";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -44,14 +45,14 @@ export default function Weather(props) {
             <div className="item">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder={city}
                 className="form-control"
-                autoFocus="on"
+                autoFocus="off"
                 onChange={handleCityChange}
               />
             </div>
             <div className="item">
-              <input type="submit" value="Search" />
+              <BiSearch type="submit" value="Search" />
             </div>
           </div>
         </form>
