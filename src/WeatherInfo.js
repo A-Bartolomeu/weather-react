@@ -11,8 +11,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div>
         <Date date={props.data.date} />
-
-        <h2>{props.data.description}</h2>
+        <h2 className="Description">{props.data.description}</h2>
         <div>
           <WeatherIcon code={props.data.icon} />
         </div>
@@ -21,14 +20,14 @@ export default function WeatherInfo(props) {
       <div className="container">
         <ul>
           <li className="item">
-            <FaThermometerHalf />
+            <FaThermometerHalf className="Thermometer" />
             <WeatherTemperature celsius={props.data.temperature} />
           </li>
           <li className="item">
-            <IoUmbrella /> {props.data.humidity}%
+            <IoUmbrella className="Umbrella" /> {props.data.humidity}%
           </li>
           <li className="item">
-            <BiWind /> {props.data.wind} km/h
+            <BiWind className="Wind" /> {props.data.wind} km/h
           </li>
         </ul>
       </div>

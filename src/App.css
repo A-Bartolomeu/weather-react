@@ -8,5 +8,9 @@
 .App footer {
   font-size: 8px;
   color: #cccccc;
-  margin-top: 15vh;
+  margin-top: 28vh;
+}
+.App footer a {
+  text-decoration: none;
+  color: #111349;
 }

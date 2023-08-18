@@ -41,7 +41,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <form onSubmit={handleSubmit}>
-          <div className="container">
+          <div className="container search">
             <div className="item">
               <input
                 type="search"
@@ -51,7 +51,7 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="item">
+            <div className="item item-search">
               <BiSearch type="submit" value="Search" />
             </div>
           </div>
