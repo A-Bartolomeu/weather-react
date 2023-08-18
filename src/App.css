@@ -8,9 +8,13 @@
 .App footer {
   font-size: 8px;
   color: #cccccc;
-  margin-top: 28vh;
+  margin-top: 18vh;
 }
 .App footer a {
   text-decoration: none;
   color: #111349;
+}
+.App footer a:hover {
+  text-decoration: underline;
+  color: #8b23e1;
 }

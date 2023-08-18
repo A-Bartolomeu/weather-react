@@ -28,6 +28,7 @@
 
 .Weather .item {
   color: #111349;
+  font-size: calc(4px + 2vmin);
 }
 
 .Weather .item-search:hover {
@@ -57,6 +58,7 @@
 
 .Weather img {
   max-width: calc(75px + 5vmin);
+  padding: 15px;
 }
 
 .Weather .Thermometer {

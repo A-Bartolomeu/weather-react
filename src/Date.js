@@ -31,6 +31,16 @@ export default function Date(props) {
 
   let day = props.date.getDate();
 
+  let hours = props.date.getHours();
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+
+  let minutes = props.date.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
   return (
     <div className="Date">
       <header className="Date-header">
@@ -38,6 +48,9 @@ export default function Date(props) {
         <h1>{day}</h1>
       </header>
       <div>
+        <p className="Hour">
+          {hours}:{minutes}
+        </p>
         <h2>{weekDay}</h2>
       </div>
     </div>

@@ -60,5 +60,12 @@
   text-transform: uppercase;
   font-size: calc(4px + 2vmin);
   letter-spacing: calc(1px + 2vmin);
+  margin-top: 4vh;
+}
+
+.Date .Hour {
+  color: #111349;
+  font-size: calc(3px + 2vmin);
+  font-weight: 700;
   margin-top: 10vh;
 }
