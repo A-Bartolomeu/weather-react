@@ -11,11 +11,13 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div>
         <Date date={props.data.date} />
+
         <h2>{props.data.description}</h2>
+        <div>
+          <WeatherIcon code={props.data.icon} />
+        </div>
       </div>
-      <div>
-        <WeatherIcon code={props.data.icon} size={52} />
-      </div>
+
       <div className="container">
         <ul>
           <li className="item">
