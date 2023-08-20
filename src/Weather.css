@@ -74,3 +74,11 @@
   color: #1909f2;
   margin-right: 3px;
 }
+
+.Weather .unit a {
+  text-decoration: none;
+  color: #111349;
+}
+.Weather .unit a:hover {
+  color: #8b23e1;
+}
