@@ -18,12 +18,13 @@
 .Weather .form-control:hover {
   color: #757575;
 }
-.Weather .form-control:focus {
-  border-color: #8b23e1;
-}
 .Weather .form-control:focus-visible {
   border-color: #8b23e1;
   color: #757575;
+}
+.Weather .form-control:focus {
+  border-color: #8b23e1;
+  outline: none;
 }
 
 .Weather .item {
