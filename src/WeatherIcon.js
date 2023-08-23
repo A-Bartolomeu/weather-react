@@ -22,5 +22,11 @@ export default function WeatherIcon(props) {
     "50n": "/img/fog-night.svg",
   };
 
-  return <img src={codeMapping[props.code]} alt="clear-day" />;
+  return (
+    <img
+      src={codeMapping[props.code]}
+      alt="clear-day"
+      className="ForecastIcon"
+    />
+  );
 }

@@ -2,10 +2,9 @@
   display: flex;
   justify-content: center;
   gap: 0.5vw;
-  margin-bottom: 2vh;
 }
 .Weather .search {
-  padding: 5vh;
+  padding: 4vh;
 }
 
 .Weather .form-control {

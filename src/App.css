@@ -8,7 +8,7 @@
 .App footer {
   font-size: 8px;
   color: #cccccc;
-  margin-top: 18vh;
+  margin-top: calc(5vh + 2vmin);
 }
 .App footer a {
   text-decoration: none;
