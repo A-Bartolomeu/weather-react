@@ -21,7 +21,11 @@ export default function WeatherInfo(props) {
         <ul>
           <li className="item">
             <FaThermometerHalf className="Thermometer" />
-            <WeatherTemperature celsius={props.data.temperature} />
+            <WeatherTemperature
+              celsius={props.data.temperature}
+              setUnit={props.setUnit}
+              unit={props.unit}
+            />
           </li>
           <li className="item">
             <IoUmbrella className="Umbrella" /> {props.data.humidity}%
